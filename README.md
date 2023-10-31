@@ -69,11 +69,10 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 ### You can find in ScreenShots-POW, more proof of work screenshots
 
 
-### Soon in about 20 minutes, there will be a video on youtube, that ill embed here with explanation through video.
+### Soon in about 20 minutes, there will be a video on youtube, that I'll embed here with an explanation through video.
 
-[![AWS Infrastructure Setup with Terraform](http://img.youtube.com/vi/ddan1EEdous/0.jpg)](http://www.youtube.com/watch?v=ddan1EEdous)
+[![AWS Infrastructure Setup with Terraform](http://img.youtube.com/vi/ddan1EEdous/0.jpg)](https://youtu.be/ddan1EEdous?si=ifblZChz1TT7sEVq)
 
----
 
 ---
 
