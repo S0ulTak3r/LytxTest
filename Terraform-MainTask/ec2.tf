@@ -10,7 +10,7 @@ resource "aws_instance" "instance_region1" {
 
   provider = aws.region1 # a must to specify the provider for each resource, because we have 2 regions
   tags = {
-    Name = "EC2-Instance-Region1"
+    Name = "LYTX-Instance-Region1"
   }
 }
 
@@ -24,6 +24,6 @@ resource "aws_instance" "instance_region2" {
 
   provider = aws.region2 # a must to specify the provider for each resource, because we have 2 regions
   tags = {
-    Name = "EC2-Instance-Region2"
+    Name = "LYTX-Instance-Region2"
   }
 }
