@@ -68,7 +68,13 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 
 ### You can find in ScreenShots-POW, more proof of work screenshots
 
+
 ### Soon in about 20 minutes, there will be a video on youtube, that ill embed here with explanation through video.
+
+[![AWS Infrastructure Setup with Terraform](http://img.youtube.com/vi/ddan1EEdous/0.jpg)](http://www.youtube.com/watch?v=ddan1EEdous)
+
+---
+
 ---
 
 **Note**: The Terraform setup is divided into two main parts. The first subfolder is used solely for the initial setup of the S3 bucket. After running `terraform apply` in that folder, all future interactions and infrastructure management should be conducted in the second subfolder containing the main Terraform configurations.
