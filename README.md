@@ -25,7 +25,7 @@ Ensure your development environment is prepared, which can be either your local 
      - AmazonS3FullAccess
      - AmazonSSMFullAccess
      - AmazonVPCFullAccess
-     - IAMFullAccess (Optional)
+     - IAMFullAccess --> could create a custom policy, but because of time measurements decided to go with a managed policy.
 
 2. **Create an IAM User**, add it to the 'Administrators' group, and generate an Access Key for this user.
 
@@ -38,11 +38,11 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 ### Step 3: S3 Bucket for Terraform State
 
 1. **Create a main project folder** and two subfolders.
-2. **First Subfolder**: Contains Terraform scripts for creating an S3 bucket to store Terraform state files. Run `terraform apply` once in this folder to set up the bucket. This step is only needed for initial setup or creating a new environment.
+2. **First Subfolder**: Contains Terraform scripts for creating an S3 bucket to store Terraform state files. Run `terraform apply` once in this folder to set up the bucket. This step is only needed for initial setup or creating a new environment. aka S3Creation.
 
 ### Step 4: Main Terraform Configuration
 
-1. **Second Subfolder**: The primary folder containing various `.tf` files for different parts of the infrastructure.
+1. **Second Subfolder**: The primary folder containing various `.tf` files for different parts of the infrastructure. aka MainTask
 2. **Apply Terraform**: With all configurations in place, run `terraform apply` to create and manage your AWS infrastructure.
 
 ## Proof of Work (Screenshots)
@@ -65,6 +65,10 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 ![CI/CD Terraform Apply](ScreenShots-POW/Proof-Of-CI_CD-Terraform-Working%201.png)
 *CI/CD pipeline running Terraform apply.*
 
+
+
+
+### Soon in about 20 minutes, there will be a video on youtube, that ill embed here with explanation through video.
 ---
 
 **Note**: The Terraform setup is divided into two main parts. The first subfolder is used solely for the initial setup of the S3 bucket. After running `terraform apply` in that folder, all future interactions and infrastructure management should be conducted in the second subfolder containing the main Terraform configurations.
