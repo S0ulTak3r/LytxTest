@@ -62,7 +62,7 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 
 ### CI/CD with GitHub Actions
 
-![CI/CD Terraform Apply](ScreenShots-POW/Proof-Of-CI_CD-Terraform-Working 1.png)
+![CI/CD Terraform Apply](ScreenShots-POW/Proof-Of-CI_CD-Terraform-Working%201.png)
 *CI/CD pipeline running Terraform apply.*
 
 ---
