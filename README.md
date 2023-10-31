@@ -66,7 +66,7 @@ Configure AWS CLI on your development environment using `aws configure`, providi
 *CI/CD pipeline running Terraform apply.*
 
 
-
+### You can find in ScreenShots-POW, more proof of work screenshots
 
 ### Soon in about 20 minutes, there will be a video on youtube, that ill embed here with explanation through video.
 ---
