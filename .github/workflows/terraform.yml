@@ -23,17 +23,17 @@ jobs:
       with:
         terraform_version: "1.0.0"
 
-    - name: Change to Terraform directory
-      run: cd Terraform-MainTask
-
     - name: Terraform Init
       run: terraform init
+      working-directory: Terraform-MainTask
       
     - name: Terraform Validate
       run: terraform validate
+      working-directory: Terraform-MainTask
       
     - name: Terraform Apply
       run: terraform apply -auto-approve
+      working-directory: Terraform-MainTask
       env:
         TF_VAR_aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         TF_VAR_aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
